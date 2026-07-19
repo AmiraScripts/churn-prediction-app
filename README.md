@@ -89,9 +89,3 @@ The app reuses the exact trained model and fitted scaler from the notebook (expo
 ## Tools Used
 
 Python, pandas, scikit-learn, XGBoost, matplotlib, Streamlit
-
-## Next Steps
-
-- Explore survival analysis to predict *when* a customer is likely to churn, not just whether — accounting properly for the right-censoring identified during EDA
-- Add a summary visualization (e.g., risk distribution chart) to the Streamlit app
-- Pin exact library versions in `requirements.txt` to avoid the `InconsistentVersionWarning` seen between the training and deployment environments
